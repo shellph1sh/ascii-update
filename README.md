@@ -1,3 +1,3 @@
 # Update
 
-Lazp update script for debian systems
+Lazy update application for debian systems
