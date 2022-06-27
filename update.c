@@ -15,8 +15,8 @@ printf(R"EOF(
     \|_______|\|__|     \|_______|\|__|\|__|    \|__|  \|__|\|__| \|__|\|_______\|__\|__\|__|
 
 )EOF");
-
-char *command = "sudo apt update && sudo apt upgrade";
+ 
+char *command = "sudo apt update && sudo apt upgrade && sudo apt autoremove";
 system(command);
 
 
