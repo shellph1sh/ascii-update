@@ -14,7 +14,7 @@ printf(R"EOF(
     \|_______|\|__|     \|_______|\|__|\|__|    \|__|  \|__|\|__| \|__|\|_______\|__\|__\|__|
 )EOF");
  
-char *command = "emaint -a sync && emerge --ask --verbose --update --deep --newuse @world";
+char *command = "emaint -a sync && emerge --ask --verbose --update --deep --newuse @world && emerge --depclean";
 system(command);
 
 
