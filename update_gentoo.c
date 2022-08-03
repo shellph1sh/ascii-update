@@ -15,7 +15,7 @@ printf(R"EOF(
        
 )EOF");
  
-char *command = "emaint -a sync && emerge --ask --verbose --update --deep --newuse @world && emerge --depclean";
+char *command = "sudo emerge --sync && sudo emerge --ask --verbose --update --deep --newuse @world && emerge --depclean";
 system(command);
 
 
